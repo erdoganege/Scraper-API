@@ -66,9 +66,7 @@ app.get('/search/:inputQuery/:noAds', async (req, res) => {
       }
       else{
         res.json(JSON.parse(response))
-      }
-        
-      
+      }  
   } catch (error) {
       res.json(error)
   }
