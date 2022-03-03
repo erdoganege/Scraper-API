@@ -1,3 +1,4 @@
+//Followed this tutorial and added more functionality to program: https://www.youtube.com/watch?v=be9sHQ7xqo0
 require("dotenv").config()
 
 const express = require("express")
